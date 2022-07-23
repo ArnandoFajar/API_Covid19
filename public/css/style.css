@@ -1,9 +1,9 @@
-body{
+body {
     /* font-family: 'Edu NSW ACT Foundation', cursive; */
-font-family: 'Merriweather', sans-serif;
+    font-family: 'Merriweather', sans-serif;
 }
 
-.bungkus{
+.bungkus {
     width: 60%;
     height: 60%;
     margin: auto;
@@ -14,7 +14,7 @@ font-family: 'Merriweather', sans-serif;
     border-radius: 5px;
 }
 
-.box-yellow{
+.box-yellow {
     border-radius: 10px;
     background-color: #fff1ad;
     color: black;
@@ -26,14 +26,16 @@ font-family: 'Merriweather', sans-serif;
     margin: 10px 0px 10px 0px;
     padding-top: 10px;
 }
-.box-yellow p{
+
+.box-yellow p {
     font-size: 1rem;
 }
-.box-yellow h2{
+
+.box-yellow h2 {
     font-size: 1.5rem;
 }
 
-.box-orange{
+.box-orange {
     border-radius: 10px;
     background-color: #ff9900;
     color: white;
@@ -45,14 +47,16 @@ font-family: 'Merriweather', sans-serif;
     margin: 10px 0px 10px 0px;
     padding-top: 10px;
 }
-.box-orange p{
+
+.box-orange p {
     font-size: 1rem;
 }
-.box-orange h2{
+
+.box-orange h2 {
     font-size: 1.5rem;
 }
 
-.box-dark{
+.box-dark {
     border-radius: 10px;
     background-color: #2C3333;
     color: white;
@@ -64,13 +68,34 @@ font-family: 'Merriweather', sans-serif;
     margin: 10px 0px 10px 0px;
     padding-top: 10px;
 }
-.box-dark p{
+
+.box-dark p {
     font-size: 1rem;
 }
-.box-dark h2{
+
+.box-dark h2 {
     font-size: 1.5rem;
 }
 
+.nav-link a:hover {
+    color: #fff1ad !important;
+}
 
+.blink {
+    color: white;
+    animation: blink 1s linear infinite;
+}
 
+@keyframes blink {
+    0% {
+        opacity: 0;
+    }
 
+    50% {
+        opacity: .5;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
