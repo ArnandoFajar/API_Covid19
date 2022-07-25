@@ -12,6 +12,7 @@ class ApiController extends BaseController
         //kirim notifikasi ke bot telegram
         define('BOT_TOKEN', '5559758612:AAHpkTe4Pgu1bCJ11zzGPUI8X8X-rhu6GZM');
         define('CHAT_ID', '-799465355');
+        // define('CHAT_ID', '-743753311');
     }
     public function index()
     {
